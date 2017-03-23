@@ -85,12 +85,12 @@ public class Operators {
         // 5. Write an "if" statement that displays a message "Total was over the limit"
         //    if the remaining total (#4) is equal to 20 or less.
         double firstValue = 20d;
-        double secondValue = 80;
-        double total = (firstValue + secondValue) * 25;
+        double secondValue = 80d;
+        double total = (firstValue + secondValue) * 25d;
         System.out.println("myTotal = " + total);
-        double remainder = total % 40;
+        double remainder = total % 40d;
         System.out.println("The Remainder is " + remainder);
-        if (remainder <= 20) {
+        if (remainder <= 20d) {
             System.out.println("Total was over the limit");
         }
 
