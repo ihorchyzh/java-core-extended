@@ -1,4 +1,4 @@
-package section0;
+package section0_start;
 
 /**
  * Created by ihorchyzh on 3/22/17.

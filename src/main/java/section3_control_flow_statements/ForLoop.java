@@ -1,4 +1,4 @@
-package section3;
+package section3_control_flow_statements;
 
 /**
  * Created by ihorchyzh on 4/4/17.

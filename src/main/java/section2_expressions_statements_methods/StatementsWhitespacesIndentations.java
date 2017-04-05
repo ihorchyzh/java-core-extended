@@ -1,4 +1,4 @@
-package section2;
+package section2_expressions_statements_methods;
 
 /**
  * Created by ihorchyzh on 3/29/17.

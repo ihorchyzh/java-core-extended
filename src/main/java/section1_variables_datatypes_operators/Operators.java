@@ -1,4 +1,4 @@
-package section1;
+package section1_variables_datatypes_operators;
 
 /**
  * Created by ihorchyzh on 3/22/17.
