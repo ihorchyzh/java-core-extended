@@ -11,6 +11,10 @@ public class Car {
     private String engine;
     private String colour;
 
+    public String getModel() {
+        return this.model;
+    }
+
     public void setModel(String model) {
         String validModel = model.toLowerCase();
         if (validModel.contains("porsche") || validModel.contains("holden")) {
@@ -18,10 +22,6 @@ public class Car {
         } else {
             this.model = "Unknown";
         }
-    }
-
-    public String getModel() {
-        return this.model;
     }
 
 }

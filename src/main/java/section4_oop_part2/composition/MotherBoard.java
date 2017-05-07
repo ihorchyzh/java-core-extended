@@ -19,7 +19,7 @@ public class MotherBoard {
         this.bios = bios;
     }
 
-    public void loadProgram(String programName){
+    public void loadProgram(String programName) {
         System.out.println("Program " + programName + " is now loading...");
     }
 

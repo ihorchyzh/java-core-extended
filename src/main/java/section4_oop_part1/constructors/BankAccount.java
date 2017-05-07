@@ -57,44 +57,44 @@ public class BankAccount {
         }
     }
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public int getNumber() {
         return this.number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public double getBalance() {
         return this.balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public String getCustomerName() {
         return this.customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getEmail() {
         return this.email;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getPhone() {
         return this.phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
 }

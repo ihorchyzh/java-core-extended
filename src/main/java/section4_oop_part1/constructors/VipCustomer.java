@@ -9,19 +9,6 @@ public class VipCustomer {
     private double creditLimit;
     private String email;
 
-    // create getters only for this using code generation of intellij as setters wont be needed
-    public String getName() {
-        return name;
-    }
-
-    public double getCreditLimit() {
-        return creditLimit;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
     // 1st constructor empty should call the constructor with 3 parameters with default values
     public VipCustomer() {
         this("default name", 0, "default email");
@@ -39,6 +26,19 @@ public class VipCustomer {
         this.name = name;
         this.creditLimit = creditLimit;
         this.email = email;
+    }
+
+    // create getters only for this using code generation of intellij as setters wont be needed
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
 }
