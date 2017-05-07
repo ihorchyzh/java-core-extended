@@ -15,9 +15,7 @@ public class Main {
         MotherBoard theMotherBoard = new MotherBoard("TT55", "Dell", 4, 6, "v443.3");
 
         PC thePC = new PC(theCase, theMonitor, theMotherBoard);
-        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
-        thePC.getMotherBoard().loadProgram("Windows 10");
-        thePC.getTheCase().pressPowerButton();
+        thePC.powerUp();
     }
 
 }
